@@ -1,0 +1,859 @@
+
+
+{
+  "HU_SB_fish_21_99BB": {
+    "first_action": {
+      "description": "Наш первый ход на SB против Fish",
+      "matrix": {
+        "AA": "raise", "KK": "raise", "QQ": "raise", "JJ": "raise", "TT": "raise", "99": "raise", "88": "raise", "77": "raise", "66": "raise", "55": "raise", "44": "call", "33": "call", "22": "call",
+        "AKs": "raise", "AQs": "raise", "AJs": "raise", "ATs": "raise", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "raise", "AQo": "raise", "AJo": "raise", "ATo": "raise", "A9o": "raise", "A8o": "call", "A7o": "call", "A6o": "raise", "A5o": "call", "A4o": "call", "A3o": "call", "A2o": "call",
+        "KQs": "raise", "KJs": "raise", "KTs": "raise", "K9s": "call", "K8s": "call", "K7s": "call", "K6s": "raise", "K5s": "raise", "K4s": "raise", "K3s": "raise", "K2s": "raise",
+        "KQo": "raise", "KJo": "raise", "KTo": "raise", "K9o": "raise", "K8o": "raise", "K7o": "raise", "K6o": "raise", "K5o": "raise", "K4o": "raise", "K3o": "raise", "K2o": "raise",
+        "QJs": "raise", "QTs": "raise", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "raise", "Q5s": "raise", "Q4s": "raise", "Q3s": "raise", "Q2s": "raise",
+        "QJo": "raise", "QTo": "raise", "Q9o": "raise", "Q8o": "raise", "Q7o": "raise", "Q6o": "raise", "Q5o": "raise", "Q4o": "raise", "Q3o": "call", "Q2o": "call",
+        "JTs": "raise", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "raise", "J5s": "raise", "J4s": "raise", "J3s": "raise", "J2s": "raise",
+        "JTo": "raise", "J9o": "raise", "J8o": "raise", "J7o": "raise", "J6o": "call", "J5o": "call", "J4o": "call", "J3o": "call", "J2o": "call",
+        "T9s": "raise", "T8s": "raise", "T7s": "raise", "T6s": "call", "T5s": "call", "T4s": "raise", "T3s": "raise", "T2s": "raise",
+        "T9o": "raise", "T8o": "raise", "T7o": "raise", "T6o": "call", "T5o": "call", "T4o": "call", "T3o": "call", "T2o": "call",
+        "98s": "raise", "97s": "raise", "96s": "call", "95s": "call", "94s": "raise", "93s": "raise", "92s": "raise",
+        "98o": "raise", "97o": "raise", "96o": "raise", "95o": "call", "94o": "call", "93o": "call", "92o": "call",
+        "87s": "raise", "86s": "call", "85s": "call", "84s": "raise", "83s": "raise", "82s": "raise",
+        "87o": "raise", "86o": "raise", "85o": "raise", "84o": "call", "83o": "call", "82o": "call",
+        "76s": "call", "75s": "call", "74s": "call", "73s": "raise", "72s": "raise",
+        "76o": "raise", "75o": "raise", "74o": "raise", "73o": "call", "72o": "call",
+        "65s": "call", "64s": "call", "63s": "call", "62s": "raise",
+        "65o": "raise", "64o": "raise", "63o": "call", "62o": "call",
+        "54s": "call", "53s": "call", "52s": "raise",
+        "54o": "raise", "53o": "call", "52o": "call",
+        "43s": "call", "42s": "raise",
+        "43o": "call", "42o": "call",
+        "32s": "raise",
+        "32o": "call"
+      }
+    },
+    "vs_bb_allin": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл ALL-IN (21-99 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "call", "TT": "call", "99": "call", "88": "call", "77": "call", "66": "call", "55": "call", "44": "call", "33": "call",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call",
+        "AKo": "call", "AQo": "call", "AJo": "call", "ATo": "call", "A9o": "call",
+        "KQs": "call"
+      }
+    },
+    "vs_bb_3bet": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл 3-БЕТ (не олл-ин) (21-99 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "allin", "TT": "allin", "99": "allin", "88": "allin", "77": "allin", "66": "allin", "55": "allin", "44": "allin", "33": "allin", "22": "call",
+        "AKs": "allin", "AQs": "allin", "AJs": "allin", "ATs": "allin", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "allin", "AQo": "allin", "AJo": "allin", "ATo": "allin", "A9o": "call", "A8o": "allin", "A7o": "allin", "A5o": "call", "A4o": "call", "A3o": "call", "A2o": "call",
+        "KQs": "call", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call", 
+        "KQo": "call", "KJo": "call", "KTo": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "QJo": "call", "QTo": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "JTo": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call", "T5s": "call",
+        "98s": "call", "97s": "call", "96s": "call", "95s": "call",
+        "87s": "call", "86s": "call", "85s": "call",
+        "76s": "call", "75s": "call", "74s": "call",
+        "65s": "call", "64s": "call", "63s": "call",
+        "54s": "call", "53s": "call",
+        "43s": "call"
+      }
+    }
+  },
+  "HU_SB_fish_18_20BB": {
+    "first_action": {
+      "description": "Наш первый ход на SB против Fish (18-20 ББ) — Точный спектр",
+      "matrix": {
+        "AA": "raise", "KK": "raise", "QQ": "raise", "JJ": "raise", "TT": "raise", "99": "raise", "88": "raise", "77": "raise", "66": "raise", "55": "raise", "44": "allin", "33": "allin", "22": "allin",
+        "AKs": "raise", "AQs": "raise", "AJs": "raise", "ATs": "raise", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "raise", "AQo": "raise", "AJo": "raise", "ATo": "raise", "A9o": "allin", "A8o": "allin", "A7o": "allin", "A6o": "call", "A5o": "call", "A4o": "call", "A3o": "call", "A2o": "call",
+        "KQs": "raise", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call", "K6s": "raise", "K5s": "raise", "K4s": "raise", "K3s": "raise", "K2s": "raise",
+        "KQo": "raise", "KJo": "raise", "KTo": "raise", "K9o": "call", "K8o": "call", "K7o": "raise", "K6o": "raise", "K5o": "raise", "K4o": "raise", "K3o": "raise", "K2o": "raise",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "raise", "Q5s": "raise", "Q4s": "raise", "Q3s": "raise", "Q2s": "raise",
+        "QJo": "raise", "QTo": "raise", "Q9o": "call", "Q8o": "call", "Q7o": "raise", "Q6o": "raise", "Q5o": "raise", "Q4o": "raise", "Q3o": "call", "Q2o": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "raise", "J5s": "raise", "J4s": "raise", "J3s": "call", "J2s": "call",
+        "JTo": "raise", "J9o": "raise", "J8o": "raise", "J7o": "call", "J6o": "call", "J5o": "call", "J4o": "call", "J3o": "call", "J2o": "call",
+        "T9s": "raise", "T8s": "raise", "T7s": "raise", "T6s": "raise", "T5s": "raise", "T4s": "raise", "T3s": "call", "T2s": "call",
+        "T9o": "call", "T8o": "call", "T7o": "call", "T6o": "call", "T5o": "call", "T4o": "call", "T3o": "call", "T2o": "call",
+        "98s": "raise", "97s": "raise", "96s": "raise", "95s": "raise", "94s": "raise", "93s": "call", "92s": "call",
+        "98o": "call", "97o": "call", "96o": "call", "95o": "call", "94o": "call", "93o": "call", "92o": "call",
+        "87s": "raise", "86s": "raise", "85s": "raise", "84s": "raise", "83s": "raise", "82s": "raise",
+        "87o": "call", "86o": "call", "85o": "call", "84o": "call", "83o": "call", "82o": "call",
+        "76s": "raise", "75s": "raise", "74s": "raise", "73s": "raise", "72s": "raise",
+        "76o": "call", "75o": "call", "74o": "call", "73o": "call", "72o": "call",
+        "65s": "raise", "64s": "raise", "63s": "raise", "62s": "raise",
+        "65o": "call", "64o": "call", "63o": "call", "62o": "call",
+        "54s": "raise", "53s": "raise", "52s": "raise",
+        "54o": "call", "53o": "call", "52o": "call",
+        "43s": "raise", "42s": "raise",
+        "43o": "call", "42o": "call",
+        "32s": "raise",
+        "32o": "call"
+      }
+    },
+    "vs_bb_allin": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл ALL-IN (18-20 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "call", "TT": "call", "99": "call", "88": "call", "77": "call", "66": "call", "55": "call",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call",
+        "AKo": "call", "AQo": "call", "AJo": "call", "ATo": "call",
+        "KQs": "call", "KJs": "call", "KTs": "call",
+        "QJs": "call", "QTs": "call",
+        "JTs": "call"
+      }
+    },
+    "vs_bb_3bet": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл 3-БЕТ (не олл-ин) (18-20 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "allin", "TT": "allin", "99": "allin", "88": "allin", "77": "allin", "66": "allin", "55": "allin",
+        "AKs": "allin", "AQs": "allin", "AJs": "allin", "ATs": "allin", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "allin", "AQo": "allin", "AJo": "allin", "ATo": "allin", "A6o": "call", "A5o": "call", "A4o": "call", "A3o": "call", "A2o": "call",
+        "KQs": "call", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call",
+        "KQo": "allin", "KJo": "allin", "KTo": "allin", "K9o": "call", "K8o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call",
+        "QJo": "allin", "QTo": "allin", "Q9o": "call", "Q8o": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call",
+        "JTo": "allin",
+        "T9s": "call", "T8s": "call", "T7s": "call",
+        "98s": "call", "97s": "call",
+        "87s": "call", "86s": "call",
+        "76s": "call",
+        "65s": "call"
+      }
+    }
+
+  },
+  "HU_SB_fish_16_17BB": {
+    "first_action": {
+      "description": "Наш первый ход на SB против Fish (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "raise", "TT": "raise", "99": "raise", "88": "raise", "77": "raise", "66": "raise", "55": "raise", "44": "call", "33": "allin", "22": "allin",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "raise", "AJo": "raise", "ATo": "raise", "A9o": "allin", "A8o": "allin", "A7o": "allin", "A6o": "allin", "A5o": "allin", "A4o": "allin", "A3o": "allin", "A2o": "allin",
+        "KQs": "raise", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call", "K6s": "raise", "K5s": "raise", "K4s": "raise", "K3s": "raise", "K2s": "raise",
+        "KQo": "raise", "KJo": "raise", "KTo": "raise", "K9o": "call", "K8o": "call", "K7o": "raise", "K6o": "raise", "K5o": "raise", "K4o": "call", "K3o": "call", "K2o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "QJo": "raise", "QTo": "raise", "Q9o": "raise", "Q8o": "raise", "Q7o": "raise", "Q6o": "raise", "Q5o": "raise", "Q4o": "call", "Q3o": "call", "Q2o": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call", "J3s": "raise", "J2s": "raise",
+        "JTo": "call", "J9o": "raise", "J8o": "raise", "J7o": "raise", "J6o": "raise", "J5o": "raise", "J4o": "call", "J3o": "call", "J2o": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call", "T5s": "raise", "T4s": "raise", "T3s": "raise", "T2s": "raise",
+        "T9o": "raise", "T8o": "raise", "T7o": "raise", "T6o": "raise", "T5o": "raise", "T4o": "call", "T3o": "call", "T2o": "call",
+        "98s": "call", "97s": "call", "96s": "call", "95s": "raise", "94s": "raise", "93s": "raise", "92s": "call",
+        "98o": "call", "97o": "call", "96o": "call", "95o": "call", "94o": "call", "93o": "call", "92o": "call",
+        "87s": "call", "86s": "call", "85s": "call", "84s": "raise", "83s": "raise", "82s": "call",
+        "87o": "call", "86o": "call", "85o": "call", "84o": "call", "83o": "call", "82o": "call",
+        "76s": "call", "75s": "call", "74s": "raise", "73s": "raise", "72s": "call",
+        "76o": "call", "75o": "call", "74o": "call", "73o": "call", "72o": "call",
+        "65s": "call", "64s": "raise", "63s": "raise", "62s": "call",
+        "65o": "call", "64o": "call", "63o": "call", "62o": "call",
+        "54s": "raise", "53s": "raise", "52s": "call",
+        "54o": "call", "53o": "call", "52o": "call",
+        "43s": "raise", "42s": "call",
+        "43o": "call", "42o": "call",
+        "32s": "call",
+        "32o": "call"
+      }
+    },
+    "vs_bb_allin": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл ALL-IN (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "call", "TT": "call", "99": "call", "88": "call", "77": "call", "66": "call", "55": "call", "44": "call",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "call", "AJo": "call", "ATo": "call",
+        "KQs": "call", "KJs": "call", "KTs": "call",
+        "KQo": "call",
+        "QJs": "call", "QTs": "call",
+        "JTs": "call"
+      }
+    },
+    "vs_bb_3bet": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл 3-БЕТ (не олл-ин) (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "allin", "JJ": "allin", "TT": "allin", "99": "allin", "88": "allin", "77": "allin", "66": "allin", "55": "allin", "44": "allin",
+        "AKs": "allin", "AQs": "allin", "AJs": "allin", "ATs": "allin", "A9s": "allin", "A8s": "allin", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "allin", "AQo": "allin", "AJo": "allin", "ATo": "allin",
+        "KQs": "call", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call",
+        "KQo": "call", "K9o": "call", "K8o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call",
+        "98s": "call", "97s": "call", "96s": "call",
+        "87s": "call", "86s": "call", "85s": "call",
+        "76s": "call", "75s": "call",
+        "65s": "call"
+      }
+    }
+  },
+  "HU_SB_fish_14_15BB": {
+    "first_action": {
+      "description": "Наш первый ход на SB против Fish (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "raise", "TT": "raise", "99": "raise", "88": "raise", "77": "raise", "66": "raise", "55": "raise", "44": "call", "33": "allin", "22": "allin",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "raise", "AJo": "raise", "ATo": "raise", "A9o": "allin", "A8o": "allin", "A7o": "allin", "A6o": "allin", "A5o": "allin", "A4o": "allin", "A3o": "allin", "A2o": "allin",
+        "KQs": "raise", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call", "K6s": "raise", "K5s": "raise", "K4s": "raise", "K3s": "raise", "K2s": "raise",
+        "KQo": "raise", "KJo": "raise", "KTo": "raise", "K9o": "call", "K8o": "call", "K7o": "raise", "K6o": "raise", "K5o": "raise", "K4o": "call", "K3o": "call", "K2o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "QJo": "raise", "QTo": "raise", "Q9o": "raise", "Q8o": "raise", "Q7o": "raise", "Q6o": "raise", "Q5o": "raise", "Q4o": "call", "Q3o": "call", "Q2o": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call", "J3s": "raise", "J2s": "raise",
+        "JTo": "call", "J9o": "raise", "J8o": "raise", "J7o": "raise", "J6o": "raise", "J5o": "raise", "J4o": "call", "J3o": "call", "J2o": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call", "T5s": "raise", "T4s": "raise", "T3s": "raise", "T2s": "raise",
+        "T9o": "raise", "T8o": "raise", "T7o": "raise", "T6o": "raise", "T5o": "raise", "T4o": "call", "T3o": "call", "T2o": "call",
+        "98s": "call", "97s": "call", "96s": "call", "95s": "raise", "94s": "raise", "93s": "raise", "92s": "call",
+        "98o": "call", "97o": "call", "96o": "call", "95o": "call", "94o": "call", "93o": "call", "92o": "call",
+        "87s": "call", "86s": "call", "85s": "call", "84s": "raise", "83s": "raise", "82s": "call",
+        "87o": "call", "86o": "call", "85o": "call", "84o": "call", "83o": "call", "82o": "call",
+        "76s": "call", "75s": "call", "74s": "raise", "73s": "raise", "72s": "call",
+        "76o": "call", "75o": "call", "74o": "call", "73o": "call", "72o": "call",
+        "65s": "call", "64s": "raise", "63s": "raise", "62s": "call",
+        "65o": "call", "64o": "call", "63o": "call", "62o": "call",
+        "54s": "raise", "53s": "raise", "52s": "call",
+        "54o": "call", "53o": "call", "52o": "call",
+        "43s": "raise", "42s": "call",
+        "43o": "call", "42o": "call",
+        "32s": "call",
+        "32o": "call"
+      }
+    },
+    "vs_bb_allin": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл ALL-IN (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "call", "TT": "call", "99": "call", "88": "call", "77": "call", "66": "call", "55": "call", "44": "call",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "call", "AJo": "call", "ATo": "call",
+        "KQs": "call", "KJs": "call", "KTs": "call",
+        "KQo": "call",
+        "QJs": "call", "QTs": "call",
+        "JTs": "call"
+      }
+    },
+    "vs_bb_3bet": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл 3-БЕТ (не олл-ин) (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "allin", "JJ": "allin", "TT": "allin", "99": "allin", "88": "allin", "77": "allin", "66": "allin", "55": "allin", "44": "allin",
+        "AKs": "allin", "AQs": "allin", "AJs": "allin", "ATs": "allin", "A9s": "allin", "A8s": "allin", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "allin", "AQo": "allin", "AJo": "allin", "ATo": "allin",
+        "KQs": "call", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call",
+        "KQo": "call", "K9o": "call", "K8o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call",
+        "98s": "call", "97s": "call", "96s": "call",
+        "87s": "call", "86s": "call", "85s": "call",
+        "76s": "call", "75s": "call",
+        "65s": "call"
+      }
+    }
+  },
+  "HU_SB_fish_12_13BB": {
+    "first_action": {
+      "description": "Наш первый ход на SB против Fish (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "raise", "TT": "raise", "99": "raise", "88": "raise", "77": "raise", "66": "raise", "55": "raise", "44": "call", "33": "allin", "22": "allin",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "raise", "AJo": "raise", "ATo": "raise", "A9o": "allin", "A8o": "allin", "A7o": "allin", "A6o": "allin", "A5o": "allin", "A4o": "allin", "A3o": "allin", "A2o": "allin",
+        "KQs": "raise", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call", "K6s": "raise", "K5s": "raise", "K4s": "raise", "K3s": "raise", "K2s": "raise",
+        "KQo": "raise", "KJo": "raise", "KTo": "raise", "K9o": "call", "K8o": "call", "K7o": "raise", "K6o": "raise", "K5o": "raise", "K4o": "call", "K3o": "call", "K2o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "QJo": "raise", "QTo": "raise", "Q9o": "raise", "Q8o": "raise", "Q7o": "raise", "Q6o": "raise", "Q5o": "raise", "Q4o": "call", "Q3o": "call", "Q2o": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call", "J3s": "raise", "J2s": "raise",
+        "JTo": "call", "J9o": "raise", "J8o": "raise", "J7o": "raise", "J6o": "raise", "J5o": "raise", "J4o": "call", "J3o": "call", "J2o": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call", "T5s": "raise", "T4s": "raise", "T3s": "raise", "T2s": "raise",
+        "T9o": "raise", "T8o": "raise", "T7o": "raise", "T6o": "raise", "T5o": "raise", "T4o": "call", "T3o": "call", "T2o": "call",
+        "98s": "call", "97s": "call", "96s": "call", "95s": "raise", "94s": "raise", "93s": "raise", "92s": "call",
+        "98o": "call", "97o": "call", "96o": "call", "95o": "call", "94o": "call", "93o": "call", "92o": "call",
+        "87s": "call", "86s": "call", "85s": "call", "84s": "raise", "83s": "raise", "82s": "call",
+        "87o": "call", "86o": "call", "85o": "call", "84o": "call", "83o": "call", "82o": "call",
+        "76s": "call", "75s": "call", "74s": "raise", "73s": "raise", "72s": "call",
+        "76o": "call", "75o": "call", "74o": "call", "73o": "call", "72o": "call",
+        "65s": "call", "64s": "raise", "63s": "raise", "62s": "call",
+        "65o": "call", "64o": "call", "63o": "call", "62o": "call",
+        "54s": "raise", "53s": "raise", "52s": "call",
+        "54o": "call", "53o": "call", "52o": "call",
+        "43s": "raise", "42s": "call",
+        "43o": "call", "42o": "call",
+        "32s": "call",
+        "32o": "call"
+      }
+    },
+    "vs_bb_allin": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл ALL-IN (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "call", "TT": "call", "99": "call", "88": "call", "77": "call", "66": "call", "55": "call", "44": "call",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "call", "AJo": "call", "ATo": "call",
+        "KQs": "call", "KJs": "call", "KTs": "call",
+        "KQo": "call",
+        "QJs": "call", "QTs": "call",
+        "JTs": "call"
+      }
+    },
+    "vs_bb_3bet": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл 3-БЕТ (не олл-ин) (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "allin", "JJ": "allin", "TT": "allin", "99": "allin", "88": "allin", "77": "allin", "66": "allin", "55": "allin", "44": "allin",
+        "AKs": "allin", "AQs": "allin", "AJs": "allin", "ATs": "allin", "A9s": "allin", "A8s": "allin", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "allin", "AQo": "allin", "AJo": "allin", "ATo": "allin",
+        "KQs": "call", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call",
+        "KQo": "call", "K9o": "call", "K8o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call",
+        "98s": "call", "97s": "call", "96s": "call",
+        "87s": "call", "86s": "call", "85s": "call",
+        "76s": "call", "75s": "call",
+        "65s": "call"
+      }
+    }
+  },
+  "HU_SB_fish_10_11BB": {
+    "first_action": {
+      "description": "Наш первый ход на SB против Fish (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "raise", "TT": "raise", "99": "raise", "88": "raise", "77": "raise", "66": "raise", "55": "raise", "44": "call", "33": "allin", "22": "allin",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "raise", "AJo": "raise", "ATo": "raise", "A9o": "allin", "A8o": "allin", "A7o": "allin", "A6o": "allin", "A5o": "allin", "A4o": "allin", "A3o": "allin", "A2o": "allin",
+        "KQs": "raise", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call", "K6s": "raise", "K5s": "raise", "K4s": "raise", "K3s": "raise", "K2s": "raise",
+        "KQo": "raise", "KJo": "raise", "KTo": "raise", "K9o": "call", "K8o": "call", "K7o": "raise", "K6o": "raise", "K5o": "raise", "K4o": "call", "K3o": "call", "K2o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "QJo": "raise", "QTo": "raise", "Q9o": "raise", "Q8o": "raise", "Q7o": "raise", "Q6o": "raise", "Q5o": "raise", "Q4o": "call", "Q3o": "call", "Q2o": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call", "J3s": "raise", "J2s": "raise",
+        "JTo": "call", "J9o": "raise", "J8o": "raise", "J7o": "raise", "J6o": "raise", "J5o": "raise", "J4o": "call", "J3o": "call", "J2o": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call", "T5s": "raise", "T4s": "raise", "T3s": "raise", "T2s": "raise",
+        "T9o": "raise", "T8o": "raise", "T7o": "raise", "T6o": "raise", "T5o": "raise", "T4o": "call", "T3o": "call", "T2o": "call",
+        "98s": "call", "97s": "call", "96s": "call", "95s": "raise", "94s": "raise", "93s": "raise", "92s": "call",
+        "98o": "call", "97o": "call", "96o": "call", "95o": "call", "94o": "call", "93o": "call", "92o": "call",
+        "87s": "call", "86s": "call", "85s": "call", "84s": "raise", "83s": "raise", "82s": "call",
+        "87o": "call", "86o": "call", "85o": "call", "84o": "call", "83o": "call", "82o": "call",
+        "76s": "call", "75s": "call", "74s": "raise", "73s": "raise", "72s": "call",
+        "76o": "call", "75o": "call", "74o": "call", "73o": "call", "72o": "call",
+        "65s": "call", "64s": "raise", "63s": "raise", "62s": "call",
+        "65o": "call", "64o": "call", "63o": "call", "62o": "call",
+        "54s": "raise", "53s": "raise", "52s": "call",
+        "54o": "call", "53o": "call", "52o": "call",
+        "43s": "raise", "42s": "call",
+        "43o": "call", "42o": "call",
+        "32s": "call",
+        "32o": "call"
+      }
+    },
+    "vs_bb_allin": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл ALL-IN (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "call", "TT": "call", "99": "call", "88": "call", "77": "call", "66": "call", "55": "call", "44": "call",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "call", "AJo": "call", "ATo": "call",
+        "KQs": "call", "KJs": "call", "KTs": "call",
+        "KQo": "call",
+        "QJs": "call", "QTs": "call",
+        "JTs": "call"
+      }
+    },
+    "vs_bb_3bet": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл 3-БЕТ (не олл-ин) (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "allin", "JJ": "allin", "TT": "allin", "99": "allin", "88": "allin", "77": "allin", "66": "allin", "55": "allin", "44": "allin",
+        "AKs": "allin", "AQs": "allin", "AJs": "allin", "ATs": "allin", "A9s": "allin", "A8s": "allin", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "allin", "AQo": "allin", "AJo": "allin", "ATo": "allin",
+        "KQs": "call", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call",
+        "KQo": "call", "K9o": "call", "K8o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call",
+        "98s": "call", "97s": "call", "96s": "call",
+        "87s": "call", "86s": "call", "85s": "call",
+        "76s": "call", "75s": "call",
+        "65s": "call"
+      }
+    }
+  },
+  "HU_SB_fish_8_8BB": {
+    "first_action": {
+      "description": "Наш первый ход на SB против Fish (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "raise", "TT": "raise", "99": "raise", "88": "raise", "77": "raise", "66": "raise", "55": "raise", "44": "call", "33": "allin", "22": "allin",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "raise", "AJo": "raise", "ATo": "raise", "A9o": "allin", "A8o": "allin", "A7o": "allin", "A6o": "allin", "A5o": "allin", "A4o": "allin", "A3o": "allin", "A2o": "allin",
+        "KQs": "raise", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call", "K6s": "raise", "K5s": "raise", "K4s": "raise", "K3s": "raise", "K2s": "raise",
+        "KQo": "raise", "KJo": "raise", "KTo": "raise", "K9o": "call", "K8o": "call", "K7o": "raise", "K6o": "raise", "K5o": "raise", "K4o": "call", "K3o": "call", "K2o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "QJo": "raise", "QTo": "raise", "Q9o": "raise", "Q8o": "raise", "Q7o": "raise", "Q6o": "raise", "Q5o": "raise", "Q4o": "call", "Q3o": "call", "Q2o": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call", "J3s": "raise", "J2s": "raise",
+        "JTo": "call", "J9o": "raise", "J8o": "raise", "J7o": "raise", "J6o": "raise", "J5o": "raise", "J4o": "call", "J3o": "call", "J2o": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call", "T5s": "raise", "T4s": "raise", "T3s": "raise", "T2s": "raise",
+        "T9o": "raise", "T8o": "raise", "T7o": "raise", "T6o": "raise", "T5o": "raise", "T4o": "call", "T3o": "call", "T2o": "call",
+        "98s": "call", "97s": "call", "96s": "call", "95s": "raise", "94s": "raise", "93s": "raise", "92s": "call",
+        "98o": "call", "97o": "call", "96o": "call", "95o": "call", "94o": "call", "93o": "call", "92o": "call",
+        "87s": "call", "86s": "call", "85s": "call", "84s": "raise", "83s": "raise", "82s": "call",
+        "87o": "call", "86o": "call", "85o": "call", "84o": "call", "83o": "call", "82o": "call",
+        "76s": "call", "75s": "call", "74s": "raise", "73s": "raise", "72s": "call",
+        "76o": "call", "75o": "call", "74o": "call", "73o": "call", "72o": "call",
+        "65s": "call", "64s": "raise", "63s": "raise", "62s": "call",
+        "65o": "call", "64o": "call", "63o": "call", "62o": "call",
+        "54s": "raise", "53s": "raise", "52s": "call",
+        "54o": "call", "53o": "call", "52o": "call",
+        "43s": "raise", "42s": "call",
+        "43o": "call", "42o": "call",
+        "32s": "call",
+        "32o": "call"
+      }
+    },
+    "vs_bb_allin": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл ALL-IN (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "call", "TT": "call", "99": "call", "88": "call", "77": "call", "66": "call", "55": "call", "44": "call",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "call", "AJo": "call", "ATo": "call",
+        "KQs": "call", "KJs": "call", "KTs": "call",
+        "KQo": "call",
+        "QJs": "call", "QTs": "call",
+        "JTs": "call"
+      }
+    },
+    "vs_bb_3bet": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл 3-БЕТ (не олл-ин) (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "allin", "JJ": "allin", "TT": "allin", "99": "allin", "88": "allin", "77": "allin", "66": "allin", "55": "allin", "44": "allin",
+        "AKs": "allin", "AQs": "allin", "AJs": "allin", "ATs": "allin", "A9s": "allin", "A8s": "allin", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "allin", "AQo": "allin", "AJo": "allin", "ATo": "allin",
+        "KQs": "call", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call",
+        "KQo": "call", "K9o": "call", "K8o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call",
+        "98s": "call", "97s": "call", "96s": "call",
+        "87s": "call", "86s": "call", "85s": "call",
+        "76s": "call", "75s": "call",
+        "65s": "call"
+      }
+    }
+  },
+  "HU_SB_fish_7_7BB": {
+    "first_action": {
+      "description": "Наш первый ход на SB против Fish (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "raise", "TT": "raise", "99": "raise", "88": "raise", "77": "raise", "66": "raise", "55": "raise", "44": "call", "33": "allin", "22": "allin",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "raise", "AJo": "raise", "ATo": "raise", "A9o": "allin", "A8o": "allin", "A7o": "allin", "A6o": "allin", "A5o": "allin", "A4o": "allin", "A3o": "allin", "A2o": "allin",
+        "KQs": "raise", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call", "K6s": "raise", "K5s": "raise", "K4s": "raise", "K3s": "raise", "K2s": "raise",
+        "KQo": "raise", "KJo": "raise", "KTo": "raise", "K9o": "call", "K8o": "call", "K7o": "raise", "K6o": "raise", "K5o": "raise", "K4o": "call", "K3o": "call", "K2o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "QJo": "raise", "QTo": "raise", "Q9o": "raise", "Q8o": "raise", "Q7o": "raise", "Q6o": "raise", "Q5o": "raise", "Q4o": "call", "Q3o": "call", "Q2o": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call", "J3s": "raise", "J2s": "raise",
+        "JTo": "call", "J9o": "raise", "J8o": "raise", "J7o": "raise", "J6o": "raise", "J5o": "raise", "J4o": "call", "J3o": "call", "J2o": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call", "T5s": "raise", "T4s": "raise", "T3s": "raise", "T2s": "raise",
+        "T9o": "raise", "T8o": "raise", "T7o": "raise", "T6o": "raise", "T5o": "raise", "T4o": "call", "T3o": "call", "T2o": "call",
+        "98s": "call", "97s": "call", "96s": "call", "95s": "raise", "94s": "raise", "93s": "raise", "92s": "call",
+        "98o": "call", "97o": "call", "96o": "call", "95o": "call", "94o": "call", "93o": "call", "92o": "call",
+        "87s": "call", "86s": "call", "85s": "call", "84s": "raise", "83s": "raise", "82s": "call",
+        "87o": "call", "86o": "call", "85o": "call", "84o": "call", "83o": "call", "82o": "call",
+        "76s": "call", "75s": "call", "74s": "raise", "73s": "raise", "72s": "call",
+        "76o": "call", "75o": "call", "74o": "call", "73o": "call", "72o": "call",
+        "65s": "call", "64s": "raise", "63s": "raise", "62s": "call",
+        "65o": "call", "64o": "call", "63o": "call", "62o": "call",
+        "54s": "raise", "53s": "raise", "52s": "call",
+        "54o": "call", "53o": "call", "52o": "call",
+        "43s": "raise", "42s": "call",
+        "43o": "call", "42o": "call",
+        "32s": "call",
+        "32o": "call"
+      }
+    },
+    "vs_bb_allin": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл ALL-IN (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "call", "TT": "call", "99": "call", "88": "call", "77": "call", "66": "call", "55": "call", "44": "call",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "call", "AJo": "call", "ATo": "call",
+        "KQs": "call", "KJs": "call", "KTs": "call",
+        "KQo": "call",
+        "QJs": "call", "QTs": "call",
+        "JTs": "call"
+      }
+    },
+    "vs_bb_3bet": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл 3-БЕТ (не олл-ин) (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "allin", "JJ": "allin", "TT": "allin", "99": "allin", "88": "allin", "77": "allin", "66": "allin", "55": "allin", "44": "allin",
+        "AKs": "allin", "AQs": "allin", "AJs": "allin", "ATs": "allin", "A9s": "allin", "A8s": "allin", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "allin", "AQo": "allin", "AJo": "allin", "ATo": "allin",
+        "KQs": "call", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call",
+        "KQo": "call", "K9o": "call", "K8o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call",
+        "98s": "call", "97s": "call", "96s": "call",
+        "87s": "call", "86s": "call", "85s": "call",
+        "76s": "call", "75s": "call",
+        "65s": "call"
+      }
+    }
+  },
+  "HU_SB_fish_6_6BB": {
+    "first_action": {
+      "description": "Наш первый ход на SB против Fish (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "raise", "TT": "raise", "99": "raise", "88": "raise", "77": "raise", "66": "raise", "55": "raise", "44": "call", "33": "allin", "22": "allin",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "raise", "AJo": "raise", "ATo": "raise", "A9o": "allin", "A8o": "allin", "A7o": "allin", "A6o": "allin", "A5o": "allin", "A4o": "allin", "A3o": "allin", "A2o": "allin",
+        "KQs": "raise", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call", "K6s": "raise", "K5s": "raise", "K4s": "raise", "K3s": "raise", "K2s": "raise",
+        "KQo": "raise", "KJo": "raise", "KTo": "raise", "K9o": "call", "K8o": "call", "K7o": "raise", "K6o": "raise", "K5o": "raise", "K4o": "call", "K3o": "call", "K2o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "QJo": "raise", "QTo": "raise", "Q9o": "raise", "Q8o": "raise", "Q7o": "raise", "Q6o": "raise", "Q5o": "raise", "Q4o": "call", "Q3o": "call", "Q2o": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call", "J3s": "raise", "J2s": "raise",
+        "JTo": "call", "J9o": "raise", "J8o": "raise", "J7o": "raise", "J6o": "raise", "J5o": "raise", "J4o": "call", "J3o": "call", "J2o": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call", "T5s": "raise", "T4s": "raise", "T3s": "raise", "T2s": "raise",
+        "T9o": "raise", "T8o": "raise", "T7o": "raise", "T6o": "raise", "T5o": "raise", "T4o": "call", "T3o": "call", "T2o": "call",
+        "98s": "call", "97s": "call", "96s": "call", "95s": "raise", "94s": "raise", "93s": "raise", "92s": "call",
+        "98o": "call", "97o": "call", "96o": "call", "95o": "call", "94o": "call", "93o": "call", "92o": "call",
+        "87s": "call", "86s": "call", "85s": "call", "84s": "raise", "83s": "raise", "82s": "call",
+        "87o": "call", "86o": "call", "85o": "call", "84o": "call", "83o": "call", "82o": "call",
+        "76s": "call", "75s": "call", "74s": "raise", "73s": "raise", "72s": "call",
+        "76o": "call", "75o": "call", "74o": "call", "73o": "call", "72o": "call",
+        "65s": "call", "64s": "raise", "63s": "raise", "62s": "call",
+        "65o": "call", "64o": "call", "63o": "call", "62o": "call",
+        "54s": "raise", "53s": "raise", "52s": "call",
+        "54o": "call", "53o": "call", "52o": "call",
+        "43s": "raise", "42s": "call",
+        "43o": "call", "42o": "call",
+        "32s": "call",
+        "32o": "call"
+      }
+    },
+    "vs_bb_allin": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл ALL-IN (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "call", "TT": "call", "99": "call", "88": "call", "77": "call", "66": "call", "55": "call", "44": "call",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "call", "AJo": "call", "ATo": "call",
+        "KQs": "call", "KJs": "call", "KTs": "call",
+        "KQo": "call",
+        "QJs": "call", "QTs": "call",
+        "JTs": "call"
+      }
+    },
+    "vs_bb_3bet": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл 3-БЕТ (не олл-ин) (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "allin", "JJ": "allin", "TT": "allin", "99": "allin", "88": "allin", "77": "allin", "66": "allin", "55": "allin", "44": "allin",
+        "AKs": "allin", "AQs": "allin", "AJs": "allin", "ATs": "allin", "A9s": "allin", "A8s": "allin", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "allin", "AQo": "allin", "AJo": "allin", "ATo": "allin",
+        "KQs": "call", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call",
+        "KQo": "call", "K9o": "call", "K8o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call",
+        "98s": "call", "97s": "call", "96s": "call",
+        "87s": "call", "86s": "call", "85s": "call",
+        "76s": "call", "75s": "call",
+        "65s": "call"
+      }
+    }
+  },
+  "HU_SB_fish_5_5BB": {
+    "first_action": {
+      "description": "Наш первый ход на SB против Fish (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "raise", "TT": "raise", "99": "raise", "88": "raise", "77": "raise", "66": "raise", "55": "raise", "44": "call", "33": "allin", "22": "allin",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "raise", "AJo": "raise", "ATo": "raise", "A9o": "allin", "A8o": "allin", "A7o": "allin", "A6o": "allin", "A5o": "allin", "A4o": "allin", "A3o": "allin", "A2o": "allin",
+        "KQs": "raise", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call", "K6s": "raise", "K5s": "raise", "K4s": "raise", "K3s": "raise", "K2s": "raise",
+        "KQo": "raise", "KJo": "raise", "KTo": "raise", "K9o": "call", "K8o": "call", "K7o": "raise", "K6o": "raise", "K5o": "raise", "K4o": "call", "K3o": "call", "K2o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "QJo": "raise", "QTo": "raise", "Q9o": "raise", "Q8o": "raise", "Q7o": "raise", "Q6o": "raise", "Q5o": "raise", "Q4o": "call", "Q3o": "call", "Q2o": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call", "J3s": "raise", "J2s": "raise",
+        "JTo": "call", "J9o": "raise", "J8o": "raise", "J7o": "raise", "J6o": "raise", "J5o": "raise", "J4o": "call", "J3o": "call", "J2o": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call", "T5s": "raise", "T4s": "raise", "T3s": "raise", "T2s": "raise",
+        "T9o": "raise", "T8o": "raise", "T7o": "raise", "T6o": "raise", "T5o": "raise", "T4o": "call", "T3o": "call", "T2o": "call",
+        "98s": "call", "97s": "call", "96s": "call", "95s": "raise", "94s": "raise", "93s": "raise", "92s": "call",
+        "98o": "call", "97o": "call", "96o": "call", "95o": "call", "94o": "call", "93o": "call", "92o": "call",
+        "87s": "call", "86s": "call", "85s": "call", "84s": "raise", "83s": "raise", "82s": "call",
+        "87o": "call", "86o": "call", "85o": "call", "84o": "call", "83o": "call", "82o": "call",
+        "76s": "call", "75s": "call", "74s": "raise", "73s": "raise", "72s": "call",
+        "76o": "call", "75o": "call", "74o": "call", "73o": "call", "72o": "call",
+        "65s": "call", "64s": "raise", "63s": "raise", "62s": "call",
+        "65o": "call", "64o": "call", "63o": "call", "62o": "call",
+        "54s": "raise", "53s": "raise", "52s": "call",
+        "54o": "call", "53o": "call", "52o": "call",
+        "43s": "raise", "42s": "call",
+        "43o": "call", "42o": "call",
+        "32s": "call",
+        "32o": "call"
+      }
+    },
+    "vs_bb_allin": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл ALL-IN (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "call", "TT": "call", "99": "call", "88": "call", "77": "call", "66": "call", "55": "call", "44": "call",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "call", "AJo": "call", "ATo": "call",
+        "KQs": "call", "KJs": "call", "KTs": "call",
+        "KQo": "call",
+        "QJs": "call", "QTs": "call",
+        "JTs": "call"
+      }
+    },
+    "vs_bb_3bet": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл 3-БЕТ (не олл-ин) (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "allin", "JJ": "allin", "TT": "allin", "99": "allin", "88": "allin", "77": "allin", "66": "allin", "55": "allin", "44": "allin",
+        "AKs": "allin", "AQs": "allin", "AJs": "allin", "ATs": "allin", "A9s": "allin", "A8s": "allin", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "allin", "AQo": "allin", "AJo": "allin", "ATo": "allin",
+        "KQs": "call", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call",
+        "KQo": "call", "K9o": "call", "K8o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call",
+        "98s": "call", "97s": "call", "96s": "call",
+        "87s": "call", "86s": "call", "85s": "call",
+        "76s": "call", "75s": "call",
+        "65s": "call"
+      }
+    }
+  },
+  "HU_SB_fish_4_4BB": {
+    "first_action": {
+      "description": "Наш первый ход на SB против Fish (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "raise", "TT": "raise", "99": "raise", "88": "raise", "77": "raise", "66": "raise", "55": "raise", "44": "call", "33": "allin", "22": "allin",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "raise", "AJo": "raise", "ATo": "raise", "A9o": "allin", "A8o": "allin", "A7o": "allin", "A6o": "allin", "A5o": "allin", "A4o": "allin", "A3o": "allin", "A2o": "allin",
+        "KQs": "raise", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call", "K6s": "raise", "K5s": "raise", "K4s": "raise", "K3s": "raise", "K2s": "raise",
+        "KQo": "raise", "KJo": "raise", "KTo": "raise", "K9o": "call", "K8o": "call", "K7o": "raise", "K6o": "raise", "K5o": "raise", "K4o": "call", "K3o": "call", "K2o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "QJo": "raise", "QTo": "raise", "Q9o": "raise", "Q8o": "raise", "Q7o": "raise", "Q6o": "raise", "Q5o": "raise", "Q4o": "call", "Q3o": "call", "Q2o": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call", "J3s": "raise", "J2s": "raise",
+        "JTo": "call", "J9o": "raise", "J8o": "raise", "J7o": "raise", "J6o": "raise", "J5o": "raise", "J4o": "call", "J3o": "call", "J2o": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call", "T5s": "raise", "T4s": "raise", "T3s": "raise", "T2s": "raise",
+        "T9o": "raise", "T8o": "raise", "T7o": "raise", "T6o": "raise", "T5o": "raise", "T4o": "call", "T3o": "call", "T2o": "call",
+        "98s": "call", "97s": "call", "96s": "call", "95s": "raise", "94s": "raise", "93s": "raise", "92s": "call",
+        "98o": "call", "97o": "call", "96o": "call", "95o": "call", "94o": "call", "93o": "call", "92o": "call",
+        "87s": "call", "86s": "call", "85s": "call", "84s": "raise", "83s": "raise", "82s": "call",
+        "87o": "call", "86o": "call", "85o": "call", "84o": "call", "83o": "call", "82o": "call",
+        "76s": "call", "75s": "call", "74s": "raise", "73s": "raise", "72s": "call",
+        "76o": "call", "75o": "call", "74o": "call", "73o": "call", "72o": "call",
+        "65s": "call", "64s": "raise", "63s": "raise", "62s": "call",
+        "65o": "call", "64o": "call", "63o": "call", "62o": "call",
+        "54s": "raise", "53s": "raise", "52s": "call",
+        "54o": "call", "53o": "call", "52o": "call",
+        "43s": "raise", "42s": "call",
+        "43o": "call", "42o": "call",
+        "32s": "call",
+        "32o": "call"
+      }
+    },
+    "vs_bb_allin": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл ALL-IN (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "call", "TT": "call", "99": "call", "88": "call", "77": "call", "66": "call", "55": "call", "44": "call",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "call", "AJo": "call", "ATo": "call",
+        "KQs": "call", "KJs": "call", "KTs": "call",
+        "KQo": "call",
+        "QJs": "call", "QTs": "call",
+        "JTs": "call"
+      }
+    },
+    "vs_bb_3bet": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл 3-БЕТ (не олл-ин) (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "allin", "JJ": "allin", "TT": "allin", "99": "allin", "88": "allin", "77": "allin", "66": "allin", "55": "allin", "44": "allin",
+        "AKs": "allin", "AQs": "allin", "AJs": "allin", "ATs": "allin", "A9s": "allin", "A8s": "allin", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "allin", "AQo": "allin", "AJo": "allin", "ATo": "allin",
+        "KQs": "call", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call",
+        "KQo": "call", "K9o": "call", "K8o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call",
+        "98s": "call", "97s": "call", "96s": "call",
+        "87s": "call", "86s": "call", "85s": "call",
+        "76s": "call", "75s": "call",
+        "65s": "call"
+      }
+    }
+  },
+  "HU_SB_fish_3_3BB": {
+    "first_action": {
+      "description": "Наш первый ход на SB против Fish (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "raise", "TT": "raise", "99": "raise", "88": "raise", "77": "raise", "66": "raise", "55": "raise", "44": "call", "33": "allin", "22": "allin",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "raise", "AJo": "raise", "ATo": "raise", "A9o": "allin", "A8o": "allin", "A7o": "allin", "A6o": "allin", "A5o": "allin", "A4o": "allin", "A3o": "allin", "A2o": "allin",
+        "KQs": "raise", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call", "K6s": "raise", "K5s": "raise", "K4s": "raise", "K3s": "raise", "K2s": "raise",
+        "KQo": "raise", "KJo": "raise", "KTo": "raise", "K9o": "call", "K8o": "call", "K7o": "raise", "K6o": "raise", "K5o": "raise", "K4o": "call", "K3o": "call", "K2o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "QJo": "raise", "QTo": "raise", "Q9o": "raise", "Q8o": "raise", "Q7o": "raise", "Q6o": "raise", "Q5o": "raise", "Q4o": "call", "Q3o": "call", "Q2o": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call", "J3s": "raise", "J2s": "raise",
+        "JTo": "call", "J9o": "raise", "J8o": "raise", "J7o": "raise", "J6o": "raise", "J5o": "raise", "J4o": "call", "J3o": "call", "J2o": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call", "T5s": "raise", "T4s": "raise", "T3s": "raise", "T2s": "raise",
+        "T9o": "raise", "T8o": "raise", "T7o": "raise", "T6o": "raise", "T5o": "raise", "T4o": "call", "T3o": "call", "T2o": "call",
+        "98s": "call", "97s": "call", "96s": "call", "95s": "raise", "94s": "raise", "93s": "raise", "92s": "call",
+        "98o": "call", "97o": "call", "96o": "call", "95o": "call", "94o": "call", "93o": "call", "92o": "call",
+        "87s": "call", "86s": "call", "85s": "call", "84s": "raise", "83s": "raise", "82s": "call",
+        "87o": "call", "86o": "call", "85o": "call", "84o": "call", "83o": "call", "82o": "call",
+        "76s": "call", "75s": "call", "74s": "raise", "73s": "raise", "72s": "call",
+        "76o": "call", "75o": "call", "74o": "call", "73o": "call", "72o": "call",
+        "65s": "call", "64s": "raise", "63s": "raise", "62s": "call",
+        "65o": "call", "64o": "call", "63o": "call", "62o": "call",
+        "54s": "raise", "53s": "raise", "52s": "call",
+        "54o": "call", "53o": "call", "52o": "call",
+        "43s": "raise", "42s": "call",
+        "43o": "call", "42o": "call",
+        "32s": "call",
+        "32o": "call"
+      }
+    },
+    "vs_bb_allin": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл ALL-IN (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "call", "TT": "call", "99": "call", "88": "call", "77": "call", "66": "call", "55": "call", "44": "call",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "call", "AJo": "call", "ATo": "call",
+        "KQs": "call", "KJs": "call", "KTs": "call",
+        "KQo": "call",
+        "QJs": "call", "QTs": "call",
+        "JTs": "call"
+      }
+    },
+    "vs_bb_3bet": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл 3-БЕТ (не олл-ин) (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "allin", "JJ": "allin", "TT": "allin", "99": "allin", "88": "allin", "77": "allin", "66": "allin", "55": "allin", "44": "allin",
+        "AKs": "allin", "AQs": "allin", "AJs": "allin", "ATs": "allin", "A9s": "allin", "A8s": "allin", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "allin", "AQo": "allin", "AJo": "allin", "ATo": "allin",
+        "KQs": "call", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call",
+        "KQo": "call", "K9o": "call", "K8o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call",
+        "98s": "call", "97s": "call", "96s": "call",
+        "87s": "call", "86s": "call", "85s": "call",
+        "76s": "call", "75s": "call",
+        "65s": "call"
+      }
+    }
+  },
+  "HU_SB_fish_2_2BB": {
+    "first_action": {
+      "description": "Наш первый ход на SB против Fish (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "raise", "TT": "raise", "99": "raise", "88": "raise", "77": "raise", "66": "raise", "55": "raise", "44": "call", "33": "allin", "22": "allin",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "raise", "AJo": "raise", "ATo": "raise", "A9o": "allin", "A8o": "allin", "A7o": "allin", "A6o": "allin", "A5o": "allin", "A4o": "allin", "A3o": "allin", "A2o": "allin",
+        "KQs": "raise", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call", "K6s": "raise", "K5s": "raise", "K4s": "raise", "K3s": "raise", "K2s": "raise",
+        "KQo": "raise", "KJo": "raise", "KTo": "raise", "K9o": "call", "K8o": "call", "K7o": "raise", "K6o": "raise", "K5o": "raise", "K4o": "call", "K3o": "call", "K2o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "QJo": "raise", "QTo": "raise", "Q9o": "raise", "Q8o": "raise", "Q7o": "raise", "Q6o": "raise", "Q5o": "raise", "Q4o": "call", "Q3o": "call", "Q2o": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call", "J3s": "raise", "J2s": "raise",
+        "JTo": "call", "J9o": "raise", "J8o": "raise", "J7o": "raise", "J6o": "raise", "J5o": "raise", "J4o": "call", "J3o": "call", "J2o": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call", "T5s": "raise", "T4s": "raise", "T3s": "raise", "T2s": "raise",
+        "T9o": "raise", "T8o": "raise", "T7o": "raise", "T6o": "raise", "T5o": "raise", "T4o": "call", "T3o": "call", "T2o": "call",
+        "98s": "call", "97s": "call", "96s": "call", "95s": "raise", "94s": "raise", "93s": "raise", "92s": "call",
+        "98o": "call", "97o": "call", "96o": "call", "95o": "call", "94o": "call", "93o": "call", "92o": "call",
+        "87s": "call", "86s": "call", "85s": "call", "84s": "raise", "83s": "raise", "82s": "call",
+        "87o": "call", "86o": "call", "85o": "call", "84o": "call", "83o": "call", "82o": "call",
+        "76s": "call", "75s": "call", "74s": "raise", "73s": "raise", "72s": "call",
+        "76o": "call", "75o": "call", "74o": "call", "73o": "call", "72o": "call",
+        "65s": "call", "64s": "raise", "63s": "raise", "62s": "call",
+        "65o": "call", "64o": "call", "63o": "call", "62o": "call",
+        "54s": "raise", "53s": "raise", "52s": "call",
+        "54o": "call", "53o": "call", "52o": "call",
+        "43s": "raise", "42s": "call",
+        "43o": "call", "42o": "call",
+        "32s": "call",
+        "32o": "call"
+      }
+    },
+    "vs_bb_allin": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл ALL-IN (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "call", "TT": "call", "99": "call", "88": "call", "77": "call", "66": "call", "55": "call", "44": "call",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "call", "AJo": "call", "ATo": "call",
+        "KQs": "call", "KJs": "call", "KTs": "call",
+        "KQo": "call",
+        "QJs": "call", "QTs": "call",
+        "JTs": "call"
+      }
+    },
+    "vs_bb_3bet": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл 3-БЕТ (не олл-ин) (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "allin", "JJ": "allin", "TT": "allin", "99": "allin", "88": "allin", "77": "allin", "66": "allin", "55": "allin", "44": "allin",
+        "AKs": "allin", "AQs": "allin", "AJs": "allin", "ATs": "allin", "A9s": "allin", "A8s": "allin", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "allin", "AQo": "allin", "AJo": "allin", "ATo": "allin",
+        "KQs": "call", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call",
+        "KQo": "call", "K9o": "call", "K8o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call",
+        "98s": "call", "97s": "call", "96s": "call",
+        "87s": "call", "86s": "call", "85s": "call",
+        "76s": "call", "75s": "call",
+        "65s": "call"
+      }
+    }
+  },
+  "HU_SB_fish_1_1BB": {
+    "first_action": {
+      "description": "Наш первый ход на SB против Fish (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "raise", "TT": "raise", "99": "raise", "88": "raise", "77": "raise", "66": "raise", "55": "raise", "44": "call", "33": "allin", "22": "allin",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "raise", "AJo": "raise", "ATo": "raise", "A9o": "allin", "A8o": "allin", "A7o": "allin", "A6o": "allin", "A5o": "allin", "A4o": "allin", "A3o": "allin", "A2o": "allin",
+        "KQs": "raise", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call", "K6s": "raise", "K5s": "raise", "K4s": "raise", "K3s": "raise", "K2s": "raise",
+        "KQo": "raise", "KJo": "raise", "KTo": "raise", "K9o": "call", "K8o": "call", "K7o": "raise", "K6o": "raise", "K5o": "raise", "K4o": "call", "K3o": "call", "K2o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "QJo": "raise", "QTo": "raise", "Q9o": "raise", "Q8o": "raise", "Q7o": "raise", "Q6o": "raise", "Q5o": "raise", "Q4o": "call", "Q3o": "call", "Q2o": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call", "J3s": "raise", "J2s": "raise",
+        "JTo": "call", "J9o": "raise", "J8o": "raise", "J7o": "raise", "J6o": "raise", "J5o": "raise", "J4o": "call", "J3o": "call", "J2o": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call", "T5s": "raise", "T4s": "raise", "T3s": "raise", "T2s": "raise",
+        "T9o": "raise", "T8o": "raise", "T7o": "raise", "T6o": "raise", "T5o": "raise", "T4o": "call", "T3o": "call", "T2o": "call",
+        "98s": "call", "97s": "call", "96s": "call", "95s": "raise", "94s": "raise", "93s": "raise", "92s": "call",
+        "98o": "call", "97o": "call", "96o": "call", "95o": "call", "94o": "call", "93o": "call", "92o": "call",
+        "87s": "call", "86s": "call", "85s": "call", "84s": "raise", "83s": "raise", "82s": "call",
+        "87o": "call", "86o": "call", "85o": "call", "84o": "call", "83o": "call", "82o": "call",
+        "76s": "call", "75s": "call", "74s": "raise", "73s": "raise", "72s": "call",
+        "76o": "call", "75o": "call", "74o": "call", "73o": "call", "72o": "call",
+        "65s": "call", "64s": "raise", "63s": "raise", "62s": "call",
+        "65o": "call", "64o": "call", "63o": "call", "62o": "call",
+        "54s": "raise", "53s": "raise", "52s": "call",
+        "54o": "call", "53o": "call", "52o": "call",
+        "43s": "raise", "42s": "call",
+        "43o": "call", "42o": "call",
+        "32s": "call",
+        "32o": "call"
+      }
+    },
+    "vs_bb_allin": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл ALL-IN (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "call", "JJ": "call", "TT": "call", "99": "call", "88": "call", "77": "call", "66": "call", "55": "call", "44": "call",
+        "AKs": "call", "AQs": "call", "AJs": "call", "ATs": "call", "A9s": "call", "A8s": "call", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "call", "AQo": "call", "AJo": "call", "ATo": "call",
+        "KQs": "call", "KJs": "call", "KTs": "call",
+        "KQo": "call",
+        "QJs": "call", "QTs": "call",
+        "JTs": "call"
+      }
+    },
+    "vs_bb_3bet": {
+      "description": "Вы вошли в игру (Рейз или Лимп) ➜ BB сыграл 3-БЕТ (не олл-ин) (16-17 ББ)",
+      "matrix": {
+        "AA": "call", "KK": "call", "QQ": "allin", "JJ": "allin", "TT": "allin", "99": "allin", "88": "allin", "77": "allin", "66": "allin", "55": "allin", "44": "allin",
+        "AKs": "allin", "AQs": "allin", "AJs": "allin", "ATs": "allin", "A9s": "allin", "A8s": "allin", "A7s": "call", "A6s": "call", "A5s": "call", "A4s": "call", "A3s": "call", "A2s": "call",
+        "AKo": "allin", "AQo": "allin", "AJo": "allin", "ATo": "allin",
+        "KQs": "call", "KJs": "call", "KTs": "call", "K9s": "call", "K8s": "call", "K7s": "call",
+        "KQo": "call", "K9o": "call", "K8o": "call",
+        "QJs": "call", "QTs": "call", "Q9s": "call", "Q8s": "call", "Q7s": "call", "Q6s": "call", "Q5s": "call", "Q4s": "call", "Q3s": "call", "Q2s": "call",
+        "JTs": "call", "J9s": "call", "J8s": "call", "J7s": "call", "J6s": "call", "J5s": "call", "J4s": "call",
+        "T9s": "call", "T8s": "call", "T7s": "call", "T6s": "call",
+        "98s": "call", "97s": "call", "96s": "call",
+        "87s": "call", "86s": "call", "85s": "call",
+        "76s": "call", "75s": "call",
+        "65s": "call"
+      }
+    }
+  }
+}
