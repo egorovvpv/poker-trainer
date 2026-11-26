@@ -16,9 +16,10 @@ The React Compiler is not enabled on this template because of its impact on dev 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
 
 Что сделано -
-простой выбор кол пуш фолда на 1-10 ББ на хедзапе, сделана json и интерфейс,
-добавил в json HU SB or | fish на 21-99бб, и действия прготив олина и 3бета с ББ
-добавил в json HU SB or | fish на 18-20 бб, и действия прготив олина и 3бета с ББ
-добавил в json HU SB or | fish на 16-17 бб, и действия прготив олина и 3бета с ББ
+простой выбор кол пуш фолда на 1-10 ББ на хедзапе, сделан json и интерфейс,
+добавил в json HU SB or | fish на 21-99 бб, и действия против олина и 3бета с ББ
+добавил в json HU SB or | fish на 18-20 бб, и действия против олина и 3бета с ББ
+добавил в json HU SB or | fish на 16-17 бб, и действия против олина и 3бета с ББ
 
 скопировал объекты от 15-1 бб, нужно отредоктировать description и действия с картами
+26.11.26 - добавил в json HU SB or | fish на 14-14 бб, и действия против олина и 3бета с ББ
